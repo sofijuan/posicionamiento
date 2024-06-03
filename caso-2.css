@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contenedor {
+  border: 2px dotted rgb(236, 76, 76);
+  border-radius: 10px;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 90px;
+}
+
+.caja {
+  border: 1px solid rgb(236, 76, 76);
+  border-radius: 10px;
+  height: 120px;
+  width: 100px;
+}
